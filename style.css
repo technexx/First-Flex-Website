@@ -9,22 +9,48 @@
 .column-one {
     display: flex;
     flex-direction: column;
-    margin-left: 15%;
-    margin-right: 15%;
+    color: #F9FAF8;
+    background-color: #1F2937;
+
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 24px;
+}
+
+.header{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    font-size: 16px;
+    gap: 16px
 }
 
 .intro {
     display: flex;
     justify-content: space-between;
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin: 75px 15% 75px 15%;
 }
 
 .intro-left {
+    width: 40%;
     padding-right: 20px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    width: 75px;
+    border-radius: 5px;
 }
