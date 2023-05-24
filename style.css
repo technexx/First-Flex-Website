@@ -9,16 +9,22 @@
 .column-one {
     display: flex;
     flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .intro {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 75px;
     margin-bottom: 75px;
+}
+
+.intro-left {
+    padding-right: 20px;
 }
