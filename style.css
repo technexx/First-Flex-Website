@@ -1,0 +1,24 @@
+.body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.column-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
