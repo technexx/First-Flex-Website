@@ -64,5 +64,31 @@
     display: flex;
     flex-direction: column;
     color: #F9FAF8;
-    background-color: black;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.column-two-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.column-two-header-text {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.column-two-images {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 36px;
+}
+
+.puppy-image {
+    width: 200px;
+    height: 300px;
+    border: 5px solid #3882F6;
 }
