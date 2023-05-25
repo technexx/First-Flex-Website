@@ -21,7 +21,7 @@
     font-size: 24px;
 }
 
-.header{
+.column-one-header {
     font-size: 24px;
     font-weight: bold;
 }
@@ -90,5 +90,8 @@
 .puppy-image {
     width: 200px;
     height: 300px;
+}
+
+.puppy-image img {
     border: 5px solid #3882F6;
 }
