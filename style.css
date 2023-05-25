@@ -109,12 +109,8 @@
     padding-top: 100px;
 }
 
-
-.quote {
-}
-
 .quote-author {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
     text-align: end;
     padding-bottom: 100px;
@@ -122,4 +118,27 @@
 
 .quote, .quote-author {
     margin: 0 20% 0 20%;
+}
+
+.column-four {
+    background-color: white;
+}
+
+.promo-box {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    margin: 100px 250px 100px 250px;
+}
+
+.promo-left, promo-button {
+    padding: 50px
+}
+
+.promo-left {
+    text-align: center;
+}
+
+.promo-button {
+
 }
