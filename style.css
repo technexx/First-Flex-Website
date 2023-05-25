@@ -84,7 +84,8 @@
     display: flex;
     align-items: center;
     font-size: 16px;
-    gap: 36px;
+    font-weight: 100;
+    gap: 60px;
 }
 
 .puppy-image {
@@ -93,5 +94,32 @@
 }
 
 .puppy-image img {
-    border: 5px solid #3882F6;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+
+.column-three {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 100px;
+}
+
+
+.quote {
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: end;
+    padding-bottom: 100px;
+}
+
+.quote, .quote-author {
+    margin: 0 20% 0 20%;
 }
