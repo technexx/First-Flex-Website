@@ -88,14 +88,22 @@
     gap: 60px;
 }
 
-.puppy-image {
-    width: 200px;
-    height: 300px;
-}
-
-.puppy-image img {
+/*Applies to img children within puppy-image-box div */
+.puppy-image-box img {
     border: 4px solid #3882F6;
     border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.puppy-image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+
+    margin-bottom: 100px;
 }
 
 .column-three {
