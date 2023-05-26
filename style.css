@@ -139,10 +139,16 @@
     padding: 50px
 }
 
-.promo-left {
-    /* text-align: center; */
+.promo-header {
+    font-weight: bold;
+    font-size: 24px;
 }
 
-.promo-right {
-    /* align-items: center; */
+.promo-button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid;
+    border-radius: 6px;
+    height: 30px;
+    width: 100px;
 }
